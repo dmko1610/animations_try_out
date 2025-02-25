@@ -14,6 +14,10 @@ export default function Home() {
         title="Go to Renimated Example"
         onPress={() => router.push("/reanimated")}
       />
+      <Button
+        title="Go to Layout Animation Example"
+        onPress={() => router.push("/layout-animation")}
+      />
     </View>
   );
 }
