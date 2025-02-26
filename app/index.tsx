@@ -22,6 +22,10 @@ export default function Home() {
         title="Go to Gesture Layout Animation Example"
         onPress={() => router.push("/gesture-layout")}
       />
+      <Button
+        title="Go to Manual Gestures Animation Example"
+        onPress={() => router.push("/manual-gesture")}
+      />
     </View>
   );
 }
